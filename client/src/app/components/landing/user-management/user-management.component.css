@@ -1,0 +1,31 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  --primary-color: rgb(11, 78, 179);
+  overflow-y: auto;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+button {
+  padding: 0.75rem;
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: #f3f3f3;
+  text-align: center;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+  width: 30%;
+}
+
+button:hover {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--primary-color);
+}

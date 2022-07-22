@@ -1,0 +1,29 @@
+<section *ngIf="productData">
+    <img src="../../../../assets/images/products/{{productData.productName}}.png" alt="product.png">
+</section>
+<section *ngIf="productData" class="description">
+    <div>
+        {{ productData.productName }}
+    </div>
+    <div>
+        price per unit: {{ productData.productPrice | currency: "ILS" }}
+    </div>
+    <div>
+        total: {{ productData.productPrice * currentItem.quantity | currency: "ILS" }}
+    </div>
+</section>
+<section *ngIf="productData">
+    <div class="clear">
+        <button (click)="updateQuantity('delete')">❌</button>
+    </div>
+    <div class="filler">
+        <button (click)="onClickDecrement()"> ➖</button>
+        <h6>{{currentItem.quantity}}</h6>
+        <button (click)="onClickIncrement()">➕</button>
+    </div>
+
+    <div>
+        <div *ngIf="isQuantityUpdated" (click)="updateQuantity()" class="update">Update</div>
+    </div>
+
+</section>

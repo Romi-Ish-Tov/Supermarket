@@ -1,0 +1,466 @@
+[{
+  "_id": {
+    "$oid": "62c40016241151b7a0614d22"
+  },
+  "userId": "314808866",
+  "isComplete": true,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657012246000"
+    }
+  },
+  "__v": 0,
+  "orderDetails": {
+    "city": "Tov",
+    "street": "Hertzel",
+    "houseNumber": "28",
+    "shippingDate": "2022-07-05",
+    "contactInfo": "050",
+    "last4Digits": "5678"
+  },
+  "totalPrice": 4
+},{
+  "_id": {
+    "$oid": "62c4005c241151b7a0614d58"
+  },
+  "userId": "314808866",
+  "isComplete": true,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657012316000"
+    }
+  },
+  "__v": 0,
+  "orderDetails": {
+    "city": "Tov",
+    "street": "Hertzel",
+    "houseNumber": "28",
+    "shippingDate": "2022-07-05",
+    "contactInfo": "050",
+    "last4Digits": "3123"
+  },
+  "totalPrice": 16
+},{
+  "_id": {
+    "$oid": "62c40099241151b7a0614d83"
+  },
+  "userId": "314808866",
+  "isComplete": true,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657012377000"
+    }
+  },
+  "__v": 0,
+  "orderDetails": {
+    "city": "Tov",
+    "street": "Hertzel",
+    "houseNumber": "28",
+    "shippingDate": "2022-07-05",
+    "contactInfo": "123123",
+    "last4Digits": "3123"
+  },
+  "totalPrice": 10
+},{
+  "_id": {
+    "$oid": "62c400cc241151b7a0614d98"
+  },
+  "userId": "208996546",
+  "isComplete": false,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657012428000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62c43a7f003127cd82e78914"
+  },
+  "userId": "314808866",
+  "isComplete": true,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657027199000"
+    }
+  },
+  "__v": 0,
+  "orderDetails": {
+    "city": "Or Yehuda",
+    "street": "Hertzel",
+    "houseNumber": "28",
+    "last4Digits": "1234",
+    "contactInfo": "544494986",
+    "shippingDate": "2022-07-04"
+  },
+  "totalPrice": 0
+},{
+  "_id": {
+    "$oid": "62c44cad0d38ac40380c1551"
+  },
+  "userId": "314808866",
+  "isComplete": true,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657031853000"
+    }
+  },
+  "__v": 0,
+  "orderDetails": {
+    "city": "Tov",
+    "street": "Hertzel",
+    "houseNumber": "28",
+    "shippingDate": "2022-07-14",
+    "contactInfo": "050",
+    "last4Digits": "6789"
+  },
+  "totalPrice": 22
+},{
+  "_id": {
+    "$oid": "62c45c65463e61f6d747c1e9"
+  },
+  "userId": "314808866",
+  "isComplete": true,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657035877000"
+    }
+  },
+  "__v": 0,
+  "orderDetails": {
+    "city": "Kochav Yair",
+    "street": "Grizim",
+    "houseNumber": "15",
+    "shippingDate": "2022-07-22",
+    "contactInfo": "2561332",
+    "last4Digits": "3123"
+  },
+  "totalPrice": 21
+},{
+  "_id": {
+    "$oid": "62c45d226b4a1472a250f31b"
+  },
+  "userId": "314808866",
+  "isComplete": true,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657036066000"
+    }
+  },
+  "__v": 0,
+  "orderDetails": {
+    "city": "Kochav Yair",
+    "street": "Grizim",
+    "houseNumber": "15",
+    "shippingDate": "2022-07-28",
+    "contactInfo": "165165",
+    "last4Digits": "6113"
+  },
+  "totalPrice": 5
+},{
+  "_id": {
+    "$oid": "62c45d566b4a1472a250f32e"
+  },
+  "userId": "314808866",
+  "isComplete": true,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657036118000"
+    }
+  },
+  "__v": 0,
+  "orderDetails": {
+    "city": "Tov",
+    "street": "Hertzel",
+    "houseNumber": "28",
+    "shippingDate": "2022-07-22",
+    "contactInfo": "54",
+    "last4Digits": "3123"
+  },
+  "totalPrice": 5
+},{
+  "_id": {
+    "$oid": "62c45e6c6b4a1472a250f399"
+  },
+  "userId": "314808866",
+  "isComplete": true,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657036396000"
+    }
+  },
+  "__v": 0,
+  "orderDetails": {
+    "city": "Tov",
+    "street": "Hertzel",
+    "houseNumber": "28",
+    "shippingDate": "2022-07-22",
+    "contactInfo": "asd",
+    "last4Digits": "3123"
+  },
+  "totalPrice": 5
+},{
+  "_id": {
+    "$oid": "62c45f416b4a1472a250f3b7"
+  },
+  "userId": "314808866",
+  "isComplete": true,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657036609000"
+    }
+  },
+  "__v": 0,
+  "orderDetails": {
+    "city": "Tov",
+    "street": "Hertzel",
+    "houseNumber": "28",
+    "shippingDate": "2022-07-28",
+    "contactInfo": "asdsad",
+    "last4Digits": "3123"
+  },
+  "totalPrice": 5
+},{
+  "_id": {
+    "$oid": "62c45ffa6b4a1472a250f406"
+  },
+  "userId": "314808866",
+  "isComplete": true,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657036794000"
+    }
+  },
+  "__v": 0,
+  "orderDetails": {
+    "city": "Tov",
+    "street": "Hertzel",
+    "houseNumber": "28",
+    "shippingDate": "2022-07-28",
+    "contactInfo": "4556",
+    "last4Digits": "3123"
+  },
+  "totalPrice": 5
+},{
+  "_id": {
+    "$oid": "62c460356b4a1472a250f425"
+  },
+  "userId": "314808866",
+  "isComplete": true,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657036853000"
+    }
+  },
+  "__v": 0,
+  "orderDetails": {
+    "city": "Tov",
+    "street": "Hertzel",
+    "houseNumber": "28",
+    "shippingDate": "2022-07-21",
+    "contactInfo": "020",
+    "last4Digits": "3123"
+  },
+  "totalPrice": 5
+},{
+  "_id": {
+    "$oid": "62c460b96b4a1472a250f485"
+  },
+  "userId": "314808866",
+  "isComplete": true,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657036985000"
+    }
+  },
+  "__v": 0,
+  "orderDetails": {
+    "city": "Tov",
+    "street": "Hertzel",
+    "houseNumber": "28",
+    "shippingDate": "2022-07-21",
+    "contactInfo": "050",
+    "last4Digits": "3123"
+  },
+  "totalPrice": 5
+},{
+  "_id": {
+    "$oid": "62c461126b4a1472a250f4a3"
+  },
+  "userId": "314808866",
+  "isComplete": true,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657037074000"
+    }
+  },
+  "__v": 0,
+  "orderDetails": {
+    "city": "Tov",
+    "street": "Hertzel",
+    "houseNumber": "28",
+    "shippingDate": "2022-07-08",
+    "contactInfo": "050",
+    "last4Digits": "3123"
+  },
+  "totalPrice": 5
+},{
+  "_id": {
+    "$oid": "62c4617c6b4a1472a250f4d7"
+  },
+  "userId": "314808866",
+  "isComplete": true,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657037180000"
+    }
+  },
+  "__v": 0,
+  "orderDetails": {
+    "city": "Tov",
+    "street": "Hertzel",
+    "houseNumber": "28",
+    "shippingDate": "2022-07-16",
+    "contactInfo": "202",
+    "last4Digits": "3123"
+  },
+  "totalPrice": 5
+},{
+  "_id": {
+    "$oid": "62c462556b4a1472a250f516"
+  },
+  "userId": "314808866",
+  "isComplete": true,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657037397000"
+    }
+  },
+  "__v": 0,
+  "orderDetails": {
+    "city": "Tov",
+    "street": "Hertzel",
+    "houseNumber": "28",
+    "shippingDate": "2022-07-30",
+    "contactInfo": "050",
+    "last4Digits": "3123"
+  },
+  "totalPrice": 5
+},{
+  "_id": {
+    "$oid": "62c462976b4a1472a250f53f"
+  },
+  "userId": "314808866",
+  "isComplete": true,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657037463000"
+    }
+  },
+  "__v": 0,
+  "orderDetails": {
+    "city": "Tov",
+    "street": "Hertzel",
+    "houseNumber": "28",
+    "shippingDate": "2022-08-02",
+    "contactInfo": "123",
+    "last4Digits": "3123"
+  },
+  "totalPrice": 5
+},{
+  "_id": {
+    "$oid": "62c463c96b4a1472a250f5c0"
+  },
+  "userId": "314808866",
+  "isComplete": true,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657037769000"
+    }
+  },
+  "__v": 0,
+  "orderDetails": {
+    "city": "Tov",
+    "street": "Hertzel",
+    "houseNumber": "28",
+    "shippingDate": "2022-07-25",
+    "contactInfo": "123",
+    "last4Digits": "2312"
+  },
+  "totalPrice": 5
+},{
+  "_id": {
+    "$oid": "62c463ed6b4a1472a250f5de"
+  },
+  "userId": "314808866",
+  "isComplete": true,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657037805000"
+    }
+  },
+  "__v": 0,
+  "orderDetails": {
+    "city": "Kochav Yair",
+    "street": "Grizim",
+    "houseNumber": "15",
+    "shippingDate": "2022-07-20",
+    "contactInfo": "123",
+    "last4Digits": "3123"
+  },
+  "totalPrice": 5
+},{
+  "_id": {
+    "$oid": "62c466066b4a1472a250f6b2"
+  },
+  "userId": "314808866",
+  "isComplete": true,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657038342000"
+    }
+  },
+  "__v": 0,
+  "orderDetails": {
+    "city": "Kochav Yair",
+    "street": "Grizim",
+    "houseNumber": "15",
+    "shippingDate": "2022-07-20",
+    "contactInfo": "123",
+    "last4Digits": "3123"
+  },
+  "totalPrice": 5
+},{
+  "_id": {
+    "$oid": "62c469596b4a1472a250f809"
+  },
+  "userId": "314808866",
+  "isComplete": true,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657039193000"
+    }
+  },
+  "__v": 0,
+  "orderDetails": {
+    "city": "Tov",
+    "street": "Hertzel",
+    "houseNumber": "28",
+    "shippingDate": "2022-08-04",
+    "contactInfo": "93",
+    "last4Digits": "6789"
+  },
+  "totalPrice": 508
+},{
+  "_id": {
+    "$oid": "62cd7f4c55355274beb1910a"
+  },
+  "userId": "314808866",
+  "isComplete": false,
+  "creationDate": {
+    "$date": {
+      "$numberLong": "1657634636000"
+    }
+  },
+  "__v": 0
+}]

@@ -1,0 +1,9 @@
+<app-header></app-header>
+
+<div class="container-main">
+    <app-cart id="cartBody" class="active"></app-cart>
+    <app-products-list></app-products-list>
+    <app-payment-modal *ngIf="paymentModalService.isPaymentModal"></app-payment-modal>
+</div>
+
+<app-login-modal *ngIf="userManagementService.isLoginModal"></app-login-modal>

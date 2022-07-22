@@ -1,0 +1,16 @@
+:host {
+    text-align: center;
+}
+
+button {
+    border: none;
+    background:  #0d6efd;
+    border-radius: 4px;
+    padding: 4px;
+    color: white;
+    margin-top: 1%;
+}
+
+button:hover {
+    opacity: .5;
+}

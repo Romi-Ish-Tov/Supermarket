@@ -1,0 +1,12 @@
+<div>
+    <h4>Total:</h4>
+
+    <section>
+        <h4>{{this.cartService.total| currency: 'ILS'}}</h4>
+    </section>
+
+</div>
+<div>
+    <button *ngIf="this.cartService.total" (click)="paymentModalService.setPaymentModal(true)">Continue</button>
+
+</div>

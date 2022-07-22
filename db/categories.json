@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "628f9d5c986d8c993fefc9c4"
+  },
+  "categoryName": "dairy"
+},{
+  "_id": {
+    "$oid": "628f9e08986d8c993fefc9c7"
+  },
+  "categoryName": "fruit"
+},{
+  "_id": {
+    "$oid": "628f9e2c986d8c993fefc9c8"
+  },
+  "categoryName": "vegetables"
+},{
+  "_id": {
+    "$oid": "628f9e70986d8c993fefc9c9"
+  },
+  "categoryName": "baked goods"
+}]

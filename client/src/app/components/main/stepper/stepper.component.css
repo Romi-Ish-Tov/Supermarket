@@ -1,0 +1,47 @@
+:host { 
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+section:nth-child(2) {
+    flex-grow: 1;  
+}
+
+section:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    flex-grow: 1;
+}
+
+button {
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    margin: 1%;
+    font-size: 30px;
+}
+
+.cart-btn {
+    font-size: 30px;
+}
+/* 
+.add-to-cart-btn {
+    position: flex;
+    height: auto;
+    width: auto;
+}
+
+.add-to-cart-btn:hover {
+    cursor: pointer;
+}
+
+img {
+    height: 100%;
+    object-fit: contain;
+    width: auto;
+} */

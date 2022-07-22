@@ -1,0 +1,18 @@
+<div class="landing-container">
+    <div class="user-management">
+        <div class="user-management-header">
+            <div class="header-btn active" (click)="userManagementService.toggleComponents()">Login</div>
+            <div class="header-btn" (click)="userManagementService.toggleComponents()">Register</div>
+        </div>
+        <app-register *ngIf="!userManagementService.isLoginRendered"></app-register>
+        <app-login *ngIf="userManagementService.isLoginRendered"></app-login>
+    </div>
+    <div class="right-side">
+        <app-preview-slider></app-preview-slider>
+        <div class="footer">
+            <app-about></app-about>
+            <div class="footer-nav">
+            <app-footer></app-footer>
+        </div>
+    </div>
+</div>

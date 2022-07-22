@@ -1,0 +1,52 @@
+<div class="form">
+
+    <div *ngIf="!userManagementService.registerPhase" class="form-step form-step-active">
+        <div class="input-group">
+            <label for="id">ID</label>
+            <input [(ngModel)]="registerPayload.userId" type="text" name="id" id="id" />
+        </div>
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input [(ngModel)]="registerPayload.password" type="password" name="password" id="password" />
+        </div>
+        <div class="input-group">
+            <label for="confirmPassword">Confirm Password</label>
+            <input [(ngModel)]="confirmPassword" type="password" name="confirmPassword" id="confirmPassword" />
+        </div>
+        <div class="input-group">
+            <label for="email">Email</label>
+            <input [(ngModel)]="registerPayload.email" type="text" name="email" id="email" />
+        </div>
+        <div class="btn-footer">
+            <button (click)="validateFirstPhaseInput()" class="btn btn-next width-50 ml-auto">Next</button>
+        </div>
+    </div>
+
+    <div *ngIf="userManagementService.registerPhase" class="form-step form-step-active">
+        <div class="input-group">
+            <label for="firstName">First Name</label>
+            <input [(ngModel)]="registerPayload.firstName" type="text" name="firstName" id="firstName" />
+        </div>
+        <div class="input-group">
+            <label for="lastName">Last Name</label>
+            <input [(ngModel)]="registerPayload.lastName" type="text" name="lastName" id="lastName" />
+        </div>
+        <div class="input-group">
+            <label for="city">City</label>
+            <input [(ngModel)]="registerPayload.city" type="text" name="city" id="city" />
+        </div>
+        <div class="input-group">
+            <label for="street">Street</label>
+            <input [(ngModel)]="registerPayload.street" type="street" name="street" id="street" />
+        </div>
+        <div class="input-group">
+            <label for="houseNumber">House Number</label>
+            <input [(ngModel)]="registerPayload.houseNumber" type="houseNumber" name="houseNumber" id="houseNumber" />
+        </div>
+        <div class="btn-footer">
+
+            <button (click)="handleBackClick()" class="btn btn-next width-50 ml-auto">Back</button>
+            <button (click)="validateSecondPhaseInput()" class="btn btn-next width-50 ml-auto">Register</button>
+        </div>
+    </div>
+</div>

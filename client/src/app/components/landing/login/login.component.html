@@ -1,0 +1,18 @@
+<div class="form">
+    <div class="form-step form-step-active">
+        <div class="input-group">
+            <label for="id">ID</label>
+            <input [(ngModel)]="loginPayload.userId" type="text" name="id" id="id" />
+        </div>
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input [(ngModel)]="loginPayload.password" type="password" name="password" id="password" />
+        </div>
+        <div class="btn-footer">
+            <span class="remeber-me" >
+                Remember me? <input [(ngModel)]="isRemember" type="checkbox">
+            </span>
+            <button (click)="handleLoginRequest()" class="btn btn-next width-50 ml-auto">Login</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+<div class="img-card iCard-style1">
+    <div class="card-content">
+        <div class="card-image">
+            <img src="../../../../assets/images/products/{{currentProduct.productName}}.png" alt="product.png">
+        </div>
+        
+        <div class="card-text">
+            <h4>{{currentProduct.productName}}</h4>
+            <p>Price Per Unit: {{currentProduct.productPrice | currency: 'ILS'}}</p>
+        </div>
+    </div>
+
+    <app-stepper *ngIf="path != '/admin'" [productId]="currentProduct._id"></app-stepper>
+    <div class="update" (click)="adminService.toggleSidebar(true, currentProduct)" *ngIf="path == '/admin'">update</div>
+</div>   

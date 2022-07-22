@@ -1,0 +1,8 @@
+Reciept No. 62c2b6c07a2da93c04f7c49a
+
+        Product || Price per unit || quantity || total
+        ______________________________________________
+    
+        Milk || 13₪ || 1 || 13₪
+        _______________________________
+        Total Price:13₪

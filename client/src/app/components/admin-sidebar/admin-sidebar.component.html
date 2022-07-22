@@ -1,0 +1,17 @@
+<h1>Add product</h1>
+<div class="form">
+    Name:<input [(ngModel)]="productName" type="text">
+    
+    Category:
+    <select (change)="getNewCategoryValue($event)">
+        <option [value]="initialCategory">{{initialCategory}}</option>
+        <option *ngFor="let categoryName of idiotArray" [value]="categoryName">{{categoryName}}</option>
+    </select>
+
+    Price:<input [(ngModel)]="productPrice" type="text">
+</div>
+
+<div class="btn">
+    <button (click)="handleSubmit()">Submit</button>
+    <button (click)="adminService.toggleSidebar(false)">Cancel</button>
+</div>

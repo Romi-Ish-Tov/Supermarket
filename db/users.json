@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "62b87a8b39955078ebd66f9f"
+  },
+  "userId": "208996546",
+  "firstName": "Yoav",
+  "lastName": "Neuman",
+  "email": "yoav@gmail.com",
+  "encrpytedPassword": "b19f20f5a611a8a1bcd76415cf6d69a6",
+  "city": "Holon",
+  "street": "Grizim",
+  "houseNumber": "15",
+  "role": "admin",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62b98d2aa83c1dffae08f1c0"
+  },
+  "userId": "314808866",
+  "firstName": "Romi",
+  "lastName": "Ish",
+  "email": "romi@gmail.com",
+  "encrpytedPassword": "b19f20f5a611a8a1bcd76415cf6d69a6",
+  "city": "Tov",
+  "street": "Hertzel",
+  "houseNumber": "28",
+  "role": "customer",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62b98dda0611c95f615d4386"
+  },
+  "userId": "322436312",
+  "firstName": "Yoav",
+  "lastName": "Neuman",
+  "email": "admin@gmail.com",
+  "encrpytedPassword": "b19f20f5a611a8a1bcd76415cf6d69a6",
+  "city": "Or yehuda",
+  "street": "hettz",
+  "houseNumber": "28",
+  "role": "customer",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62becf8d09f3363c56252b8c"
+  },
+  "userId": "337051940",
+  "firstName": "Romi",
+  "lastName": "ish tov",
+  "email": "yoav@gmail.com",
+  "encrpytedPassword": "41ec037239352a15c6edd54a7ab3624a",
+  "city": "Holon",
+  "street": "Hatavass",
+  "houseNumber": "1",
+  "role": "customer",
+  "token": "string",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62c454c5384a5bdd45987568"
+  },
+  "userId": "033639386",
+  "firstName": "Romi",
+  "lastName": "ish tov",
+  "email": "yoav@gmail.com",
+  "encrpytedPassword": "41ec037239352a15c6edd54a7ab3624a",
+  "city": "Holon",
+  "street": "Hatavass",
+  "houseNumber": "1",
+  "role": "customer",
+  "__v": 0
+}]

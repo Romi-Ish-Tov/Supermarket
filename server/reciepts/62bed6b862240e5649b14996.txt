@@ -1,0 +1,8 @@
+Reciept No. 62bed6b862240e5649b14996
+
+        Product || Price per unit || quantity || total
+        ______________________________________________
+    
+        Apple || 4₪ || 1 || 4₪
+        _______________________________
+        Total Price:4₪

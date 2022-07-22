@@ -1,0 +1,17 @@
+:host {
+    width: 95%;
+    height: 50px;
+}
+
+img {
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    height: 45px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}

@@ -1,0 +1,141 @@
+.landing-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(175, 172, 234) 0%, rgb(92, 140, 207) 35%, rgba(0,212,255,1) 100%);
+
+}
+
+.user-management {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    --primary-color: rgb(11, 78, 179);
+    overflow-y: auto;
+}
+
+.user-management-header {
+    height: 5%;
+    width: 320px;
+    margin: 1%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.user-management-header>div:first-child {
+    text-align: left;
+    width: 50%;
+    transition: 500ms;
+}
+
+.user-management-header>div:last-child {
+    text-align: right;
+    width: 50%;
+    transition: 500ms;
+}
+
+.user-management-header>div.active {
+    color: white;
+    background-color: rgb(11, 78, 179);
+    width: 100%;
+    text-align: center;
+}
+
+app-preview-slider {
+    width: 95% !important;
+    height: 60%;
+    margin-top: 10px !important;
+}
+
+.right-side {
+    height: 100%;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer {
+    width: 100%;
+    height: 40%;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+app-about {
+    height: 40%;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+.footer-nav {
+    height: 50%;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .footer {
+        height: fit-content;
+    }
+
+    .footer-nav {
+        margin-top: 10%;
+    }
+
+    .landing-container {
+        flex-direction: column;
+        height: fit-content;
+        gap: 20px
+    }
+
+    .user-management {
+        width: 100%;
+    }
+
+    app-about {
+        height: 15vh;
+        width: 100%;
+    }
+}
+
+.user-management::-webkit-scrollbar-track
+{
+	/* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+.user-management::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+   
+
+}
+
+.user-management::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.44, rgb(122,153,217)),
+									   color-stop(0.72, rgb(73,125,189)),
+									   color-stop(0.86, rgb(28,58,148)));
+}

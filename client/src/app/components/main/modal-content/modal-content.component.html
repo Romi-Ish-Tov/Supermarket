@@ -1,0 +1,73 @@
+
+<!-- first page -->
+<div class="modal-container" *ngIf="cartService.modalStage == 0">
+    <section>
+        <div class="title">
+            <h1>Your Order</h1>
+        </div>
+        <div class="item-container">
+            <div class="search">
+                <input [(ngModel)]="input" (ngModelChange)="highlightSearch()" type="text" placeholder="Search">🔍
+            </div>
+            <div class="header">
+                <div class="title">image</div>
+                <div class="title">name</div>
+                <div class="title">quantity</div>
+                <div class="title">total</div>
+            </div>
+            <app-modal-item *ngFor="let item of cartService.items" id="{{item._id}}" [currentItem]="item"
+                [search]="input"></app-modal-item>
+        </div>
+        <div class="btn-container">
+            <div class="btn" (click)="paymentModalService.setPaymentModal(false)">Continue Shopping</div>
+            <div class="btn" (click)="continuePayment()">NEXT</div>
+        </div>
+    </section>
+    <section>
+        <img src="../../../../assets/images/payment/happypeoplesupermarket.png" alt="">
+    </section>
+</div>
+
+<!-- second page -->
+<div class="modal-container" *ngIf="cartService.modalStage == 1">
+    <section>
+        <h2>shipping details</h2>
+        <div class="details">
+            City:<input type="text" [(ngModel)]="city" placeholder="city" (dblclick)="autoFillData('city')">
+            Street:<input type="text" [(ngModel)]="street" placeholder="street" (dblclick)="autoFillData('street')">
+            House number:<input type="text" [(ngModel)]="houseNumber" placeholder="house number"
+                (dblclick)="autoFillData('houseNumber')">
+            Shipping date:<input type="date" [min]="currentDate" [(ngModel)]="shippingDate" placeholder="shipping date">
+            Contact info:<input type="text" [(ngModel)]="contactInfo" placeholder="contact info">
+        </div>
+
+        <div class="back" (click)="goBack()">Back</div>
+    </section>
+
+    <section>
+        <div class="details">
+            <h2>Payment details</h2>
+            Credit card:<input [(ngModel)]="creditCardNumber" type="text" placeholder="Credit card" >
+            Expiration date:<input [(ngModel)]="expirationDate" [min]="currentMonth" type="month" placeholder="Expiration date">
+            cvv:<input [(ngModel)]="cvv" type="text" placeholder="cvv">
+            <div (click)="finishPayment()" class="delivery-image">
+                <img src="../../../../assets/images/payment/happydeliveryman.png" alt="happydeliveryman">
+                <a>Complete Order</a>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- page 3 -->
+<div class="modal-container" *ngIf="cartService.modalStage == 2">
+    <section>
+        <img src="../../../../assets/images/payment/happythankyou.png" alt="happydeliveryman">
+    </section>
+
+    <section>
+        <div class="download-receipt-btn-container">
+            <button (click)="cartService.downloadReceipt(oldCartId)" class="download-receipt-btn">DOWNLOAD RECEIPT</button>
+            <button (click)="paymentModalService.setPaymentModal(false)" class="download-receipt-btn">back to store</button>
+        </div>
+    </section>
+</div>

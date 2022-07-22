@@ -1,0 +1,12 @@
+:host {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(225, 233, 234);    
+}
+
+app-card {
+    margin: 1%;
+    height: fit-content;
+}

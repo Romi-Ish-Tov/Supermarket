@@ -1,0 +1,28 @@
+:host {
+    overflow: none;
+}
+
+app-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+}
+
+.admin-container{
+    display: flex;   
+    height: 95%;
+}
+
+app-admin-sidebar {
+    min-width: 30%;
+    border: 1px solid;
+    height: 100%;
+}
+
+app-products-list {
+    overflow: auto;
+    min-width: 70%;
+    height: 100%;
+}

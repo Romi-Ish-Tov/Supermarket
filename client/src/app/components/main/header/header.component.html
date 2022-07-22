@@ -1,0 +1,15 @@
+<section>    
+    <div (click)="userManagementService.logout()">Logout</div>
+    <div *ngIf="role == 'customer'" (click)="toggleCart()">Cart</div>
+    <div *ngIf="role == 'admin'" (click)="adminService.toggleSidebar(true)">➕</div>
+    <div (click)="navigateToApiDocs()" *ngIf="role == 'admin'">API Doc</div>
+</section>
+
+<section> 
+    <select (change)="productService.sort($event)" [(ngModel)]="categoryFilter">
+        <option selected="selected" value="Show All">Show All</option>
+        <option *ngFor="let category of productService.categories" [value]="category._id">{{category.categoryName}}</option>
+
+    </select>
+    <span><input type="text" placeholder="Search products" [(ngModel)]="productService.query" (ngModelChange)="productService.sortBySearch()" >🔍</span>
+</section>

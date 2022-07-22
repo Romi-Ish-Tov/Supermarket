@@ -1,0 +1,29 @@
+<div class="modal-body">
+    <h1 *ngIf="cartService.previousCartData || cartService.items.length">Welcome back {{userManagementService.userData.firstName}}</h1>
+    <h1 *ngIf="!cartService.previousCartData && !cartService.items.length">Welcome {{userManagementService.userData.firstName}} on your first visit</h1>
+
+    <div *ngIf="cartService.items.length">
+        <div>You have an open cart!</div>
+        <div>
+            Your cart was created on: {{cartService.cartData.creationDate | date: "dd/MM"}}
+            <br />
+            Current Total: {{cartService.total | currency: "ILS"}}
+        </div>
+    </div>
+
+    <div *ngIf="cartService.previousCartData && !cartService.items.length">
+        <div>Your last purchase details:</div>
+
+        <div *ngIf="cartService.previousCartData">
+            Your last cart was created on: {{cartService.previousCartData.creationDate | date: "dd/MM"}}
+            <br />
+            Total Price: {{cartService.previousCartData.totalPrice | currency: "ILS"}}
+        </div>
+    </div>
+
+    <button (click)="userManagementService.isLoginModal = false" class="continue-btn">Continue</button>
+</div>
+
+<div class="modal-background" (click)="userManagementService.isLoginModal = false">
+
+</div>

@@ -1,0 +1,238 @@
+[{
+  "_id": {
+    "$oid": "628f9fa1986d8c993fefc9d7"
+  },
+  "categoryId": {
+    "$oid": "628f9e08986d8c993fefc9c7"
+  },
+  "productName": "Apple",
+  "productPrice": 5
+},{
+  "_id": {
+    "$oid": "628f9fde986d8c993fefc9dc"
+  },
+  "categoryId": {
+    "$oid": "628f9e2c986d8c993fefc9c8"
+  },
+  "productName": "Tomato",
+  "productPrice": 4
+},{
+  "_id": {
+    "$oid": "628fa017986d8c993fefc9e1"
+  },
+  "productName": "Bread",
+  "productPrice": 10,
+  "categoryId": {
+    "$oid": "628f9e70986d8c993fefc9c9"
+  }
+},{
+  "_id": {
+    "$oid": "628fa609d22ead55f8460f05"
+  },
+  "productName": "Ice cream",
+  "productPrice": 12,
+  "__v": 0,
+  "categoryId": {
+    "$oid": "628f9d5c986d8c993fefc9c4"
+  }
+},{
+  "_id": {
+    "$oid": "62908c1a2d5553e7b01554bb"
+  },
+  "productName": "Yogurt",
+  "productPrice": 7,
+  "__v": 0,
+  "categoryId": {
+    "$oid": "628f9d5c986d8c993fefc9c4"
+  }
+},{
+  "_id": {
+    "$oid": "62b84db0a035b78326f2b1b7"
+  },
+  "productName": "Milk",
+  "productPrice": 6,
+  "categoryId": {
+    "$oid": "628f9d5c986d8c993fefc9c4"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd7d7655355274beb1906c"
+  },
+  "productName": "Cucumber",
+  "productPrice": 3,
+  "categoryId": {
+    "$oid": "628f9e2c986d8c993fefc9c8"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd7d8b55355274beb1906f"
+  },
+  "productName": "Bell pepper",
+  "productPrice": 6,
+  "categoryId": {
+    "$oid": "628f9e2c986d8c993fefc9c8"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd7d9c55355274beb19072"
+  },
+  "productName": "Onion",
+  "productPrice": 5,
+  "categoryId": {
+    "$oid": "628f9e2c986d8c993fefc9c8"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd7dbb55355274beb19075"
+  },
+  "productName": "Parsley",
+  "productPrice": 3,
+  "categoryId": {
+    "$oid": "628f9e2c986d8c993fefc9c8"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd7dd055355274beb19078"
+  },
+  "productName": "Watermelon",
+  "productPrice": 10,
+  "categoryId": {
+    "$oid": "628f9e08986d8c993fefc9c7"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd7df255355274beb1907b"
+  },
+  "productName": "Cantelope",
+  "productPrice": 10,
+  "categoryId": {
+    "$oid": "628f9e08986d8c993fefc9c7"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd7dff55355274beb1907e"
+  },
+  "productName": "Plum",
+  "productPrice": 3,
+  "categoryId": {
+    "$oid": "628f9e08986d8c993fefc9c7"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd7e0d55355274beb19081"
+  },
+  "productName": "Orange",
+  "productPrice": 4,
+  "categoryId": {
+    "$oid": "628f9e08986d8c993fefc9c7"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd7e1655355274beb19084"
+  },
+  "productName": "Peach",
+  "productPrice": 4,
+  "categoryId": {
+    "$oid": "628f9e08986d8c993fefc9c7"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd7e2055355274beb19087"
+  },
+  "productName": "Lemon",
+  "productPrice": 4,
+  "categoryId": {
+    "$oid": "628f9e08986d8c993fefc9c7"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd7e2d55355274beb1908a"
+  },
+  "productName": "Cheese",
+  "productPrice": 7,
+  "categoryId": {
+    "$oid": "628f9d5c986d8c993fefc9c4"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd7e3c55355274beb1908d"
+  },
+  "productName": "Butter",
+  "productPrice": 8,
+  "categoryId": {
+    "$oid": "628f9d5c986d8c993fefc9c4"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd7e5555355274beb19090"
+  },
+  "productName": "Sour cream",
+  "productPrice": 8,
+  "categoryId": {
+    "$oid": "628f9d5c986d8c993fefc9c4"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd7e6155355274beb19093"
+  },
+  "productName": "Yolo",
+  "productPrice": 7,
+  "categoryId": {
+    "$oid": "628f9d5c986d8c993fefc9c4"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd7e8055355274beb19099"
+  },
+  "productName": "Cookie",
+  "productPrice": 15,
+  "categoryId": {
+    "$oid": "628f9e70986d8c993fefc9c9"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd7e9655355274beb1909c"
+  },
+  "productName": "Cinnamon roll",
+  "productPrice": 12,
+  "categoryId": {
+    "$oid": "628f9e70986d8c993fefc9c9"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd7ea955355274beb1909f"
+  },
+  "productName": "Bagel",
+  "productPrice": 9,
+  "categoryId": {
+    "$oid": "628f9e70986d8c993fefc9c9"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd7ebe55355274beb190a2"
+  },
+  "productName": "Donut",
+  "productPrice": 12,
+  "categoryId": {
+    "$oid": "628f9e70986d8c993fefc9c9"
+  },
+  "__v": 0
+}]

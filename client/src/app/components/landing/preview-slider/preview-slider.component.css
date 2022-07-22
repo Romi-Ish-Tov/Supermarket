@@ -1,0 +1,19 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% !important;
+    margin: 0% !important;
+    width: 100% !important;
+    overflow: hidden !important; 
+    border-radius: 25px; 
+}
+
+img {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.carousel-item {
+    width:  0% !important;
+}
